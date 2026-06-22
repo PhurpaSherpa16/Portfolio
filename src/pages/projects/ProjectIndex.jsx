@@ -59,7 +59,7 @@ export default function ProjectIndex() {
         return (
             <div>
                 {videoFile && (
-                    <div className='w-full h-full'>
+                    <div className='w-full h-auto'>
                       <video src={videoFile.link} 
                           autoPlay 
                           loop 
@@ -131,7 +131,6 @@ export default function ProjectIndex() {
                     </div>
                 </div>
 
-                {/* Media Showcase */}
                 <div className="py-12 md:py-16">
                     {renderMedia()}
                 </div>
@@ -140,6 +139,9 @@ export default function ProjectIndex() {
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 pt-8 border-t border-black/10">
                     {/* Left Column: Details */}
                     <div className="lg:col-span-7 space-y-16">
+                        {/* <div>
+                            {renderMedia()}
+                        </div> */}
                         {data.details_description && (
                             <div className="space-y-4">
                                 <h3 className="text-xs uppercase tracking-widest text-(--primary_blue) font-semibold">Overview</h3>

@@ -13,7 +13,7 @@ export default function Index() {
     if(location.hash){
       const element = document.querySelector(location.hash)
       if(element){
-        element.scrollIntoView({behavior:'instant'})
+        element.scrollIntoView({behavior:'smooth',block:'start'})
       }
     }
 
