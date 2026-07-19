@@ -9,7 +9,11 @@ import { MagneticElement } from '../../utils/MagneticCursor'
 export default function Footer() {
   return (
     <div className='relative'>
-        <div className='relative h-fit lg:h-[150vh]'>
+        <div className='relative h-fit 
+        lg:h-[150vh]
+        xl:h-[190vh]
+        min-[1400px]:h-[160vh]!
+        '>
             <div className='h-fit sticky top-0 pt-[70vh] md:pt-[52vh] lg:pt-[40vh]'>
                 <FooterContent/>
             </div>
@@ -164,9 +168,9 @@ const data = {
     supporting:"I build digital experiences with a focus on clarity, motion, and thoughtful design. Whether it's a landing page, a content platform, or a web application, I aim to create interfaces that feel intuitive, refined, and purposeful. Good design isn't about adding more — it's about knowing what to leave out.",
     footer_supporting: "I build digital experiences with a focus on clarity, motion, and thoughtful design. Whether it's a landing page, a content platform, or a web application.",
     social:[
-        {label:"Dribble",link:"/"},
-        {label:"Linkedin",link:"/"},
-        {label:"Github",link:"/"},
+        {label:"Dribble",link:"https://dribbble.com/"},
+        {label:"Linkedin",link:"https://www.linkedin.com/in/phurpa-sherpa/"},
+        {label:"Github",link:"https://github.com/PhurpaSherpa16/"},
     ],
     menu:[
         {label:"Home",link:"#"},
@@ -178,6 +182,6 @@ const data = {
         {label:"phurpasherpa900@gmail.com",link:"mailto:phurpasherpa900@gmail.com"},
     ],
     copyright:'© 2026 Portfolio',
-    dev:'By ( Phurpa Sherpa ❤️ )',
+    dev:'By ( Phurpa Sherpa )',
 }
 

@@ -233,7 +233,7 @@ export default function Skills() {
   return (
     <div className='overflow-hidden bg-(--primary_blue)/5 py-24 h-fit flex items-center justify-center' id='skill'>
         <div className='mainDiv flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-8'>
-            <div className='w-full lg:w-1/2 flex items-center justify-center min-h-[350px] sm:min-h-[400px] md:min-h-[480px]'>
+            <div className='w-full lg:w-1/2 flex items-center justify-center min-h-[350px] sm:min-h-[400px] py-10 md:min-h-[500px]'>
                 <SpinningSkillsCircle />
             </div>
             <div className='w-full lg:w-1/2 flex flex-col justify-center'>
@@ -248,7 +248,8 @@ export default function Skills() {
                       </div>
               
                       <div>
-                          <h1 className={`text-center md:text-left text-(--primary_blue)`}>
+                          <h1 className={`text-center!! md:text-left text-(--primary_blue) 
+                            flex items-center justify-center flex-col md:items-start`}>
                             <StaggerText text={'Behind the'} className={'heroText'}/>
                             <StaggerText text={'Experience'} className={'heroText'}/>
                           </h1>
