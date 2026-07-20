@@ -41,11 +41,11 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
-            <div className='bg-(--primary_blue) h-[40vh] flex items-center justify-center'>
+            <div className='bg-(--primary_blue) min-h-[40vh] py-16 flex items-center justify-center'>
                 <div className='mainDiv h-fit!'>
                     <h1 className='text-white font-sans font-bold 
-                    text-[100px] lg:text-[140px] 2xl:text-[170px] text-center'>Frontend Developer</h1>
-                    <span className='text-white font-sans font-light text-center'>Minimal & Seamless Experience</span>
+                    text-[80px] md:text-[100px] lg:text-[120px] min-[1400px]:text-[140px]! 2xl:text-[170px] text-center'>Frontend Developer</h1>
+                    <p className='text-white font-sans font-light text-center'>Minimal & Seamless Experience</p>
                 </div>
             </div>
         </div>
